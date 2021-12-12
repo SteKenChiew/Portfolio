@@ -1,0 +1,273 @@
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 25px 50px 25px;
+    min-height: 100vh;
+    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 1)) ,url(image/BGimg.jpg);
+}
+
+
+
+.project .box3{
+    display: inline-block;
+    height: 600px;
+    width: 1000px;
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll ;
+    
+    
+    
+    
+}
+
+
+.box3::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    
+  }
+.box3::-webkit-scrollbar-track {
+    background-color: rgba(102, 101, 101, 0.2);
+    border-radius: 10px;
+  }
+.box3::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+
+
+
+.project1box{
+    
+    background-color: #FF478E;
+    border-radius: 20px;
+    max-width: 100%;
+    min-width: 500px;
+    height: 200px;
+    margin: auto;
+    margin-right: 10px;
+    display: flex;
+    overflow:hidden;
+    box-shadow: 0 10px 10px rgba(255, 255, 255, 0.2);
+}
+
+.project1-left-box {
+	background-color: #02040F;
+	height: 100%;
+    width: 35%;
+    padding: 20px;
+    
+    
+    
+}
+
+.project1-left-box h6{
+	color: #FFF;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.project1-left-box h2{
+	color: #d65a31;
+    font-size: 2rem;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    
+}
+
+.project1content{
+    padding: 20px;
+    color: #111111;
+    width: 70%;
+}
+
+.project1content p{
+    padding-top: 20px;
+}
+
+.project1content .project1moreabout{
+    padding-top: 40px;
+    padding-right: 40px;
+    float: right;
+}
+
+.project1moreabout button{
+
+    padding: 7px 20px 7px 20px;
+    border-radius: 20px;
+    color: #02040F;
+    background-color: #E59500;
+    border: none;
+    cursor: pointer;
+}
+
+.project2box{
+    background-color: #FF478E;
+    
+    border-radius: 20px;
+    margin-right: 10px;
+   
+    margin-top: 50px;
+    max-width: 100%;
+    min-width: 500px;
+    height: 200px;
+    display: flex;
+    overflow:hidden;
+    box-shadow: 0 10px 10px rgba(255, 255, 255, 0.2);
+}
+
+.project2-left-box {
+	background-color: #02040F;
+	height: 100%;
+    width: 35%;
+    padding: 20px;
+    
+    
+    
+}
+
+.project2-left-box h6{
+	color: #FFF;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.project2-left-box h2{
+	color: #d65a31;
+    font-size: 2rem;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    
+}
+
+.project2content{
+    width: 70%;
+    padding: 20px;
+    color: #111111;
+}
+
+.project2content p{
+    padding-top: 20px;
+}
+
+.project3box{
+    background-color: #FF478E;
+    margin-right: 10px;
+    border-radius: 20px;
+    
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    min-width: 500px;
+    height: 200px;
+    display: flex;
+    overflow:hidden;
+    box-shadow: 0 10px 10px rgba(255, 255, 255, 0.2);
+}
+
+.project3-left-box {
+	background-color: #02040F;
+	height: 100%;
+    width: 35%;
+    padding: 20px;
+    
+    
+    
+}
+
+.project3-left-box h6{
+	color: #FFF;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.project3-left-box h2{
+	color: #d65a31;
+    font-size: 2rem;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    
+}
+
+.project3content{
+    padding: 20px;
+    color: #111111;
+    width: 70%;
+}
+
+.project3content p{
+    padding-top: 20px;
+}
+
+
+
+@media (max-width: 728px){
+	
+    
+    .project .box3{
+        height: 500px;
+        
+    }
+    .project1box{
+        
+        
+        max-width: 700px;
+        min-width: 300px;
+        height: 200px;
+        
+    }
+
+    
+
+    .project1-left-box h6{
+        font-size: 0.8rem;
+    }
+    .project1-left-box h2{
+        font-size: 1rem;
+    }
+
+    .project1content .project1moreabout{
+        padding-top: 10px;
+        padding-right: 6px;
+    }
+
+    .project2box{
+        
+        
+        max-width: 700px;
+        min-width: 300px;
+        height: 200px;
+        margin-top: 50px ;
+    }
+
+    .project2-left-box h6{
+        font-size: 0.8rem;
+    }
+    .project2-left-box h2{
+        font-size: 1.2rem;
+    }
+
+    .project3box{
+        
+        
+        max-width: 700px;
+        min-width: 300px;
+        height: 200px;
+        margin-top: 50px ;
+        margin-bottom: 50px;
+    }
+
+    .project3-left-box h6{
+        font-size: 0.8rem;
+    }
+    .project3-left-box h2{
+        font-size: 1.2rem;
+    }
+}

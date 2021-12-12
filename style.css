@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	box-sizing: border-box;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+
+body{
+	
+    background-color: #FFFFFF;
+	color: #545454;
+}
+
+.navbar{
+	width: 100%;
+	height: 60px;
+	background: #090f1b;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0 25px;
+    z-index: 1;
+}
+
+.navbar .inner_navbar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+
+.navbar .hamburger{
+	display: none;
+}
+
+.navbar .logo a{
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+
+
+.navbar .menu ul{
+	display: flex;
+}
+
+.navbar .menu ul li a{
+	width: 120px;
+	margin-right: 10px;
+	display: block;
+	text-align: center;
+	padding: 10px;
+	border-radius: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 2px;
+	transition: all 0.2s ease;
+}
+
+.navbar .menu ul li:last-child a{
+	margin-right: 0;	
+}
+
+.navbar .menu ul li a:hover,
+.navbar .menu ul li a.active{
+	background: #FF7518;
+}
+
+
+
+
+
+
+
+@media (max-width: 992px){
+	.navbar{
+		height: 100px;
+		padding: 12px;
+	}
+	.navbar .inner_navbar{
+		flex-direction: column;
+	}
+	.main_container{
+		margin-top: 100px;
+	}
+    /* home page */
+    .box .home_image{
+        width: 50%;
+        padding: 0px;
+    }
+    /* end home page */
+}
+
+@media (max-width: 728px){
+	.navbar{
+		height: 60px;
+	}
+	.navbar .inner_navbar{
+		flex-direction: row;
+	}
+	.main_container{
+		margin-top: 60px;
+	}
+	.navbar .menu ul{
+		position: absolute;
+		top: 60px;
+		left: 0;
+		display: block;
+		background: #090f1b;
+		width: 100%;
+	}
+	.navbar .menu ul li{
+		padding: 10px;
+	}
+	.navbar .menu ul li a{
+		width: 100%;
+		padding: 12px;
+	}
+	.navbar .hamburger{
+		display: block;
+		position: absolute;
+		top: 15px;
+		right: 25px;
+		font-size: 24px;
+		color: #FF7518;
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}
+	.navbar .hamburger:hover{
+		color: #FFFFFF;
+	}
+	.navbar .menu{
+		display: none;
+	}
+	.navbar .menu.active{
+		display: block;
+	}
+	.main_container .content .item_wrap{
+		width: 100%;
+	}
+
+    /* home page */
+    .home .box{
+        margin-top: 10%;
+        display: inline-block;
+        height: auto;
+        width: auto;
+        
+    }
+    .profilepic{
+        width: auto;
+        height: 300px;
+        margin: auto;
+        transform: none;
+        transition: none;
+        filter: none;
+    }
+    .profilepic:hover{
+        transform: none;
+        transition: none;
+        filter: none;
+    }
+    
+    .box .home_image{
+        width: auto;
+        height: auto;
+        padding-top: 4rem;
+    }
+    .box .item{
+        width: auto;
+        padding: 0px;
+        padding-top: 3rem;
+        font-size: auto;
+        
+        
+    }
+    /* end home page */
+    
+}
