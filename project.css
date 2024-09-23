@@ -206,6 +206,57 @@
     padding-top: 20px;
 }
 
+.project4box{
+    background-color: #FF478E;
+    margin-right: 10px;
+    border-radius: 20px;
+    
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    min-width: 500px;
+    height: 200px;
+    display: flex;
+    overflow:hidden;
+    box-shadow: 0 10px 10px rgba(255, 255, 255, 0.2);
+}
+
+.project4-left-box {
+	background-color: #02040F;
+	height: 100%;
+    width: 35%;
+    padding: 20px;
+    
+    
+    
+}
+
+.project4-left-box h6{
+	color: #FFF;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.project4-left-box h2{
+	color: #d65a31;
+    font-size: 2rem;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    
+}
+
+.project4content{
+    padding: 20px;
+    color: #111111;
+    width: 70%;
+}
+
+.project4content p{
+    padding-top: 20px;
+}
+
+
 
 
 @media (max-width: 728px){
